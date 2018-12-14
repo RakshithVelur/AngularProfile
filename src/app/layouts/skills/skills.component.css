@@ -1,0 +1,58 @@
+.skillHeader{
+    font-size: 30px;
+    font-family: serif;
+    padding-top: 1vh;
+}
+
+.smallText{
+    line-height: 3vh;
+    font-style: italic;
+}
+
+.smallHeader{
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.smallDiv{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.divBorder{
+    border: 1px solid #E31B6D;
+    margin: 20px;
+  }
+
+.single-skills {
+    margin-bottom: 15px;
+    padding-left: 60px;
+    position: relative;
+    -webkit-transition: transition;
+    -o-transition: transition;
+    transition: transition;
+}
+
+.progressbar {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    position: relative;
+    background-color: #EEEEEE;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.proggress {
+    height: 8px;
+    width: 10px;
+    background-color: #3498db;
+}
+
+.percentCount {
+    float: right;
+    margin-top: 10px;
+    clear: both;
+    font-weight: bold;
+    font-family: Arial;
+}

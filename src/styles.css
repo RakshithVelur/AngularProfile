@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+
+.navbar-bg-light {
+    background-color: #1B242F !important;
+}
+
+.router-link-active {
+    color: #E31B6D;
+}
+
+.nav-link {
+    color: whitesmoke !important;
+}
+
+.nav-link:hover{
+    color: #E31B6D !important;
+}
+
+.navbar-light .navbar-brand {
+    color: whitesmoke !important;
+}
+
+.flex {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg {
+    position: fixed; 
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.navbar-togglers {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: whitesmoke;
+    border: whitesmoke;
+    border-radius: .25rem;
+}
+
+.header {
+    font-size: 25pt;
+    font-family: 'raleway-bold';
+    position: relative;
+    color: #E31B6D;
+    position: relative;
+    /* text-align: center; */
+}

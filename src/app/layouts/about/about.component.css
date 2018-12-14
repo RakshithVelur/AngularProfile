@@ -1,0 +1,169 @@
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+  }
+  .btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+  }
+  .btn-circle.btn-xl {
+    width: 150px;
+    height: 150px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 75px;
+    background-color: transparent;
+  }
+
+  .label-data{
+    margin:15px 0 5px 0;
+  }
+  .removeHov{
+    box-shadow: none !important;
+  }
+
+  .ulStyle{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .liIcons{
+    height:4vh;
+  }
+
+  ul li fa {
+    margin-right: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    height: 40px;
+    display: inline-block;
+  }
+
+  .divPadding {
+    padding-left: 5vw;
+    text-align: center;
+  }
+ 
+
+  .mediaLi{
+    padding-top:2vh;
+  }
+
+  .mediaLink{
+    color: currentColor !important;
+  }
+
+  .bitmoji{
+    background-image: url("../../../assets/bitmoji-1.png");
+    width: 18vw;
+    height: auto;
+    max-width:372vw;
+    max-height: 322vh;
+    min-width: 18vw;
+    min-height: 322px;
+    background-repeat: no-repeat;
+  }
+  .divLeft{
+    text-align: left;
+  }
+
+
+  .divPaddingZero{
+    padding: 0px;
+    margin: 0px;
+  }
+  .normalDevices{
+    display: block;
+  }
+  .onlySmall{
+    display: none;
+  }
+
+  .ulStyleSmall{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+  }
+  .mediaLiSmall{
+    padding-top: 2vh;
+    padding-left: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .divPadding{
+    margin: 61px;
+  }
+  .divLeft{
+    padding: 70px 0px 20px 109px;
+  }
+  
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  .bitmoji{    
+    width: 60vw;
+    height: auto;
+    max-height: 322vh;
+    min-width: 31%;
+    min-height: 322px;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .divPadding{
+    margin: 61px;
+  }
+  .divLeft{
+    padding: 70px 0px 20px 109px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .divPadding{
+    margin: 61px;
+  }
+  .divLeft{
+    padding: 70px 0px 20px 109px;
+  }
+}
+
+@media only screen and (max-width: 727px) {
+
+  .normalDevices{
+    display: none;
+  }
+  .onlySmall{
+    display: block;
+  }
+  .divLeft {
+    padding: 70px 0px 20px 9px;
+  }
+  .bitmoji {
+    width: 18vw;
+    height: auto;
+    max-width: 372vw;
+    max-height: 322vh;
+    min-width: 97%;
+    min-height: 355px;
+    background-repeat: no-repeat;
+    margin: 15px 0;
+    padding: 0px
+  }
+
+
+}

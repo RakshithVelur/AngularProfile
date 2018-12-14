@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-sm navbar-light navbar-bg-light">
+  <div class="container">
+  <div class="navbar-brand">
+    <span class="badge badge-default brandStyle"><b>R</b></span>
+  </div>
+  <button class="navbar-toggler" (click)="collapse=!collapse" type="button" aria-expanded="false" aria-label="Toggle navigation"
+    style="background-color: whitesmoke;">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse" (click)="collapse=true" [hidden]="collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home" routerLinkActive="router-link-active">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about" routerLinkActive="router-link-active">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/skills" routerLinkActive="router-link-active">Skills</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>

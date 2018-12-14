@@ -1,0 +1,27 @@
+.flexCustom{
+    height:88vh;
+    display: flex;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.textCustom{
+    font-size: 6vmin;
+    z-index: 1;
+    pointer-events: none;
+    color: whitesmoke;
+}
+
+
+#bg {
+    position: fixed; 
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.highlight {
+    font-family: 'Roboto Mono', monospace;
+    color: #E31B6D;
+
+    }
